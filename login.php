@@ -17,42 +17,71 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include("header.php"); ?>
-    
-   <div id="portada" class= "container-fluid">
-    <div class="log-in">
-        <form action="" method="get">
-            <div class="logo"><img src="image/gamecontroller_23721.png" alt=""></div>
-            
-            <div class="letra">
-                <h1>Login</h1>
-                <p>iniciar juego</p>
+<?php include("header.php"); ?>
+
+<div class="container-fluid">
+    <div id="login"  class=" container col-xs-12 col-sm-12 col-md-8 col-lg-6">
+        <div class="letra"><h1>Login</h1></div>
+        <div class="logo"><a href="img/burnquiz_logow.png"></a></div>
+        <div class="formulario">
+            <form action="">
+                <input type="email" name="" id="" placeholder="CORREO ELECTRONICO" >
+                <input type="password" name="" id="" placeholder="CONTRASEÑA">
+                
+            </form>
+                  <div class="btn">
+                    <input type="submit" value="Iniciar Sesion">
+                  </div>
+
+            <div class="ayuda">
+                <ul>
+                    <li><a href="">¿Has olvidado la contraseña?</a></li>
+                    <li><a href="">¡No estoy registrado!</a></li>
+                </ul>
             </div>
-  
-            
-
-            
-            
-        
-            <input class="completar" type="text" name="name" id="" placeholder="correo electronico"><br>
-
-            <input class="completar" type="password" name="pass" id="" placeholder="contraseña"><br>
-
-            <input class="check" type="checkbox" name="" id="">
-
-
-            <div class="a2" ><a href=""><p></p> Olvido su cotraseña o email?</p></a></div>
-            <div class="a2" ><a href=""><p></p> Aún no se ha registrado?</p></a></div>
-
-            <div class="btn"><input type="submit" value="Iniciar Sesión"><br></div>
-            
-            <div class="parrafo"><p>Al hacer clic en Iniciar sesión, confirmo que he leído y acepto los Términos de servicio y la Política de privacidad de  ESTE JUEGO INCREIBLE</p></div>
-
-        
-        </form>
+            <div class="termios">
+                <p>
+                    By clicking Log In, I confirm that I have read and agree to the Burn Quiz Terms of Service and Privacy Policy.
+                </p>
+            </div>
+        </div>
     </div>
-</div>  
-    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php include("footer.php"); ?>
   
 </body>
