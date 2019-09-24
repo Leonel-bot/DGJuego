@@ -41,7 +41,7 @@
             </div>
             <div class="termios">
                 <p>
-                    By clicking Log In, I confirm that I have read and agree to the Burn Quiz Terms of Service and Privacy Policy.
+                    By  aclicking Log In, I confirm that I have read and agree to the Burn Quiz Terms of Service and Privacy Policy.
                 </p>
             </div>
         </div>
