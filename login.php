@@ -27,11 +27,11 @@
             <form action="">
                 <input type="email" name="" id="" placeholder="CORREO ELECTRONICO" >
                 <input type="password" name="" id="" placeholder="CONTRASEÑA">
-                
-            </form>
-                  <div class="btn">
+             <div class="btn">
                     <input type="submit" value="Iniciar Sesion">
-                  </div>
+             </div>
+            </form>
+                  
 
             <div class="ayuda">
                 <ul>

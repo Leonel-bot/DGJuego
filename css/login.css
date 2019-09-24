@@ -19,6 +19,7 @@ div.letra{
 }
 
 div#login{
+    border-radius: 10px;
     position: relative;
     margin:;
     background-color: white;
@@ -40,7 +41,10 @@ div.formulario form input{
    
 
 }
-.btn input{
+div .btn{
+    width: 250px;
+}
+div.btn input{
     
     color: white;
     background-color:rgb(223, 0, 0);
